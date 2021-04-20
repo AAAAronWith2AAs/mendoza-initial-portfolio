@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* padding: 1%; */
+  background-color: rgb(63, 12, 63);
+  color: black;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+
+  background-color: blueviolet;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
