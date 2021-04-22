@@ -1,64 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* flex-container */
 header {
   display: flex;
+  /* how do we want to distribute the space of items */
   justify-content: space-between;
-  align-items: flex-end;
-  /* padding: 1%; */
-  background-color: rgb(63, 12, 63);
-  color: black;
+  align-items: center;
+  padding: 3rem;
+  background-color: #242526;
 }
 
 h1 {
-  text-align: left;
-  font-size: 60px;
+  font-size: 6rem;
   margin-top: 25px;
   background-color: blueviolet;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  min-width: 300px;
-}
-
-li {
-  display: inline;
-  list-style-type: none;
-  font-size: 20px;
-}
-
 a {
+  font-size: 3rem;
+  color: white;
   text-decoration: none;
-  color: rgb(114, 114, 114);
-}
-
-main {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 3rem;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 36px;
   border-right: solid;
-
-  padding-left: 6px;
+  /* width: 900px; */
+  padding: 0 10px 0 200px;
+  text-align: right;
 }
 
 .code-card {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 317px;
-  width: 514px;
+
   margin: 50px;
 }
-
-/* .card {
-  display: flex;
-  flex-direction: column;
-  outline: solid;
-  min-height: 100%;
-  box-sizing: border-box;
-  height: 300px;
-  width: 300px;
-  justify-content: flex-start;
-} */
