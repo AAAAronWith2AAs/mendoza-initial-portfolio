@@ -71,3 +71,10 @@ main {
   margin: 2rem 1rem 0 2rem;
   padding-right: 1rem;
 }
+
+
+@media screen and (min-width: 768px) {
+  .column-card {
+      flex: 0 0 33.33333%;
+      max width: 33.333%;
+  }
