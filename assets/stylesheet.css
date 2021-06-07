@@ -60,7 +60,7 @@ p {
   text-shadow: 0 0 2.5rem white;
 }
 
-img {
+.aaron {
   width: 200px;
   height: 300px;
   object-fit: cover;
@@ -134,6 +134,11 @@ h5 {
   margin: 1rem;
   display: flex;
   align-items: flex-end;
+}
+
+#BandAID {
+  background-image: url(./images/bass.jpeg);
+  background-size: cover;
 }
 
 body {
